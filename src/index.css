@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.zenitsu {
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  color: yellow;
+  border: 1px solid yellowgreen;
+}
