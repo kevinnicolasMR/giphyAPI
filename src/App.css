@@ -11,4 +11,20 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 16px;
+}
+
+button{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.Links {
+  text-decoration: none;
+  color: rgb(224, 227, 230);
+  margin-left: 10px;
+  background-color: #181b20;
+  padding: 3px 10px 3px 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }

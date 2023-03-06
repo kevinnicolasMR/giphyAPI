@@ -1,0 +1,24 @@
+.Gifs {
+    border-radius: 20px;
+    display: flex;
+    margin: 16px;
+    width: 100%;
+    flex-direction: column;
+    background-color: #1f2229;
+    box-shadow: 1px 1px 10px #000000;
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+}
+
+.Gifs img {
+    margin-top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.Gifs h4 {
+    font-size: 15px;
+    color: #eceef3;
+}
