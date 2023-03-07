@@ -1,0 +1,104 @@
+.headerContainer{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    background-color: #1a1c22;
+    box-shadow: 1px 1px 10px #000000;
+
+}
+
+/* Contenido del logo y su contenedor padre*/
+
+.logoContainer{
+    width: 20%;
+    height: 100%;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Estilos de la zona de busqueda */
+
+.searchMenu{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 10px #484040;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: rgb(182, 175, 175);
+    outline: none;
+
+}
+
+.buttonSearch{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(251, 239, 217);
+    border: none;
+    box-shadow: 1px 1px 10px #0d0c0c;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+/* Estilos del slider  */
+
+.slider{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.buttonSlider{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;
+}
+
+.buttonSlider > div {
+    background: white;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .5s;
+    transform-origin: right;
+}
+
+button:hover div:first-child{
+    transform: rotate(-45deg);
+}
+
+button:hover div:nth-child(2){
+    opacity: 0;
+}
+
+button:hover div:nth-child(3){
+    transform: rotate(45deg);
+}
+
+
+
