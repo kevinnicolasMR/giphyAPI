@@ -1,7 +1,9 @@
 import React from "react";
 import "../StylesComponents/Header.css"
 import image from '../StylesComponents/Logos/image.png'
-import Formulario from './Form.js'
+import SearchResults from '../pages/SearchResults/index.js'
+
+
 
 function headerApp() {
   return (
@@ -10,7 +12,7 @@ function headerApp() {
         <a href="https://kevinnicolasmr.lat/"><img src={image} className='logo'/></a>
       </div>
       <div className="searchMenu">
-        <Formulario/>
+        <SearchResults/>
       </div>
       <div className="slider">
         <button className="buttonSlider">
